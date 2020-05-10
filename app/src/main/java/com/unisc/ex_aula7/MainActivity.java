@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         tvPontoOrvalho.setText(String.valueOf(sumorv/tam));
         tvPressao.setText(String.valueOf(sumpres/tam));
 
-       // SimpleAdapter adpter = new SimpleAdapter(this, lista,R.layout.visual,de,para);
-        //listView.setAdapter(adapter);
+        SimpleAdapter adpter = new SimpleAdapter(this, lista,R.layout.linha,de,para);
+        listView.setAdapter(adpter);
     }
 }
